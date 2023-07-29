@@ -1,3 +1,103 @@
+
+.neon-green {
+    background-color: #39ff14; /* Custom neon green color */
+  }
+
+  .neon-green .card-body {
+    background-color: transparent; /* Make the card body background transparent */
+  }
+
+  .neon-green h4 {
+    text-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 30px rgb(255, 255, 255);
+  }
+/* Style for the To Do App card */
+.card.bg-warning {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for the card */
+}
+
+/* Style for the input field and button */
+.input-group.p-4 {
+    margin-bottom: 20px;
+}
+
+/* Style for the task list container */
+div[style="overflow-y: auto; height: 350px;"] {
+    border: 1px solid #dae1e1;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* Style for individual tasks */
+.p-2.shadow.border {
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-image: linear-gradient(to right, #39ff14, #39ff14);
+
+}
+
+/* Style for edit and delete buttons */
+.btn-outline-primary, .btn-outline-danger {
+    font-size: 1rem;
+    padding: 5px 10px;
+    margin: 0 5px;
+    border-radius: 8px;
+}
+
+/* Style for the modal */
+.modal-content {
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for the modal */
+}
+
+/* Style for the modal header */
+.modal-header {
+    background-color: #f8fafa;
+    border-bottom: 1px solid #ccc;
+    border-radius: 10px 10px 0 0;
+}
+
+/* Style for the modal title */
+.modal-title {
+    color: #333;
+}
+
+/* Style for the modal body */
+.modal-body {
+    background-color: #f8f9fa;
+    border-radius: 0 0 10px 10px;
+}
+
+/* Style for the add button */
+.btn-outline-success {
+    font-size: 1.2rem;
+    width: 40px;
+    height: 40px;
+    background-color: #39ff14; /* Change the background color of the add button */
+    color: #0a0000; /* Change the text color of the add button */
+}
+
+/* Style for the task name in the card */
+.card.col-md-10.border-0 {
+    font-weight: bold;
+    padding: 10px;
+}
+
+/* Style for the column containing the task card */
+.col-md-6.bg-white.shadow {
+    border-radius: 10px;
+    padding: 20px;
+}
+
+/* Hover effect for tasks */
 #tasks:hover {
     transform: scale(1.01);
+}
+
+
+.task-manager-box {
+
+    background-image: linear-gradient(to right, #ff512f, #f09819);
+    border-radius: 10px;
+    padding: 20px;
 }
